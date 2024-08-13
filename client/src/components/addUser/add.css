@@ -1,0 +1,34 @@
+.add{
+    background-color: antiquewhite;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputGroup input{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.addButton{
+    all: unset;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 18px auto 8px;
+    cursor: pointer;
+}
